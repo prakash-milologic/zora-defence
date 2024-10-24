@@ -11,8 +11,6 @@ const Testimonial = () => {
     <Swiper
     spaceBetween={50}
     slidesPerView={3}
-    // onSlideChange={() => console.log('slide change')}
-    // onSwiper={(swiper) => console.log(swiper)}
   >
     <SwiperSlide>
     <div className="swiper-slide group bg-white border border-solid border-gray-300 rounded-2xl max-sm:max-w-sm max-sm:mx-auto p-6 transition-all duration-500 hover:border-indigo-600">
