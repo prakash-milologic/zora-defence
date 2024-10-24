@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const About = () => {
     return (
-        <div className=" bg-[#0F0F0F] flex pt-12 px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
+        <div className=" bg-[#0F0F0F] pt-12 px-6 md:px-[104px] bg-hero md:h-screen overflow-hidden">
             <div className="flex flex-col gap-16 md:flex-row max-w-8xl">
                 <div className="w-full md:w-1/3">
                     <Image src={about} alt="about" width={400} height={400} />

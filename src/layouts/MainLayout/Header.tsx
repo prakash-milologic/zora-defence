@@ -12,7 +12,7 @@ const Header = () => {
     const [toggleNav, setToggleNav] = useState<boolean>(false);
 
   return (
-    <header className="sticky top-0 z-50  ">
+    <header className="sticky top-0 z-50 bg-black ">
     <nav className=" shadow lg:px-10 px-5 lg:py-5 py-2">
       <div className="w-full md:hidden flex items-center justify-between">
         <Link href={"/"}>
