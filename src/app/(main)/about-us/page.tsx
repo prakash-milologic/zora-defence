@@ -1,8 +1,6 @@
-import Hero from '@/components/Homepage/Hero'
-import React from 'react'
-import HeroTemplate from '@/components/Common/HeroTemplate'
 import AboutUsHero from '@/components/AboutUs/AboutUsHero'
 import FeatureCommonCount from '@/components/Common/FeatureCommonCount'
+import HeroTemplate from '@/components/Common/HeroTemplate'
 
 const countItem = [
   {

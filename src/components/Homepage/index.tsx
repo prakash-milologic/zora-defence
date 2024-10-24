@@ -1,9 +1,7 @@
-import React from 'react'
-import Hero from './Hero'
-import About from './About'
-import FeatureCount from './FeatureCount'
-import Testimonial from './Testimonial'
 import FeatureCommonCount from '../Common/FeatureCommonCount'
+import About from './About'
+import Hero from './Hero'
+import Testimonial from './Testimonial'
 
 const Home = () => {
   const countItem = [
