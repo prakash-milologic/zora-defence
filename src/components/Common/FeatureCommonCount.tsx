@@ -7,7 +7,7 @@ const FeatureCommonCount = ({ featureItems }: { featureItems: { count: string; t
                 {
                     featureItems.map((item, index) => (
                         <div key={index} className="flex flex-col gap-2 border p-7">
-                            <h1 className="text-6xl font-medium">{item.count}</h1>
+                            <h1 className="text-5xl font-medium">{item.count}</h1>
                             <p className="text-xs opacity-80 font-normal">{item.title}</p>
                         </div>
                     ))

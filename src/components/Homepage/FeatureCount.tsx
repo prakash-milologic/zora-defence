@@ -2,7 +2,7 @@ import React from 'react'
 
 const FeatureCount = () => {
     return (
-        <div className=" bg-[##000000] mt-12 mb-12 bg-black py-20">
+        <div className=" bg-[#000000] mt-12 mb-12 bg-black py-20">
             <div className="flex flex-col justify-center text-center  md:flex-row gap-24">
                 <div className=" flex  flex-col  gap-2 border-[0.5px] border-primary-500 p-7">
                     <h1 className="text-6xl font-medium  ">647</h1>
