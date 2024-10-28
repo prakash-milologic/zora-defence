@@ -1,18 +1,19 @@
-"use client"
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+"use client";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import TestimonialDesc from './TestimonialDesc';
+import "swiper/css";
+import TestimonialDesc from "./TestimonialDesc";
 
 const Testimonial = () => {
-    return (
-        <div className="px-6 md:px-[104px] py-[120px]">
-         <p className="text-sm text-secondary-500 font-bold">CLIENTS STORIES</p>
-      <p className="text-[64px] font-medium w-2/3 mt-6 mb-14">
-      What Our Clients Have<br/>
-      to Say About Us 
+  return (
+    <div className="px-6 md:px-[104px] py-[120px]">
+      <p className="text-sm text-secondary-500 font-bold">CLIENTS STORIES</p>
+      <p className="lg:text-[64px] text-3xl font-medium lg:w-2/3 pr-20 mt-6 mb-14">
+        What Our Clients Have
+        <br />
+        to Say About Us
       </p>
         <Swiper
             spaceBetween={50}
@@ -45,4 +46,4 @@ const Testimonial = () => {
     )
 }
 
-export default Testimonial
+export default Testimonial;

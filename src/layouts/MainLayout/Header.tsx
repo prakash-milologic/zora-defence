@@ -56,7 +56,7 @@ const Header = () => {
             >
               <Link
                 href={item.link}
-                className="text-primary-500 hover:underline text-xs lg:text-base"
+                className="text-white hover:underline text-xs lg:text-base"
               >
                 <li className="py-3 lg:px-4 px-3 hover:underline transition-all">
                   {item.name}

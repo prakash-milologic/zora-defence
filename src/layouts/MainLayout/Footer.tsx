@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <div className={`pt-20 px-6 md:px-[104px] ${openSans.className}`}>
       <div className="flex justify-between">
-        <div className="w-1/4">
+        <div className="w-1/4 lg:block hidden">
           <div className="w-[180px] h-[120px] overflow-hidden">
             <Link href={"/"} className="w-full h-full">
               <Image
@@ -35,31 +35,31 @@ const Footer = () => {
             of your people, property.
           </p>
         </div>
-        <div className="w-1/5">
-          <p className="text-2xl">Quick Links</p>
-          <ul className="mt-8">
+        <div className="lg:w-1/5">
+          <p className="lg:text-2xl">Quick Links</p>
+          <ul className="lg:mt-8 mt-4">
             {mainMenuItems.map((item, index) => (
-              <li key={index} className="mt-2.5 font-[340] text-white/80">
+              <li key={index} className="lg:text-base text-xs lg:mt-2.5 mt-2 font-[340] text-white/80">
                 <Link href={item.link}>{item.name}</Link>
               </li>
             ))}
           </ul>
         </div>
-        <div className="w-1/5">
-          <p className="text-2xl">Our Services</p>
-          <ul className="mt-8">
+        <div className="lg:w-1/5">
+          <p className="lg:text-2xl">Our Services</p>
+          <ul className="lg:mt-8 mt-4">
             {services.map((item, index) => (
-              <li key={index} className="mt-2.5 font-[340] text-white/80">
+              <li key={index} className="lg:text-base text-xs lg:mt-2.5 mt-2 font-[340] text-white/80">
                 <Link href={item.link}>{item.name}</Link>
               </li>
             ))}
           </ul>
         </div>
-        <div className="w-1/5">
+        <div className="lg:w-1/5 hidden lg:block">
           <p className="text-2xl">Get In Touch</p>
           <ul className="mt-8">
             {socialLinks.map((item: ISocialLinks) => (
-              <li key={item.name} className="mt-2.5 font-[340] text-white/80">
+              <li key={item.name} className="text-base mt-2.5 font-[340] text-white/80">
                 <Link
                   href={item.link}
                   className="inline-flex items-center gap-3"
@@ -71,8 +71,22 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-
-      <div className="mt-[188px] mb-8 text-center">
+      <div className="lg:hidden mt-8">
+          <p className="text-base">Get In Touch</p>
+          <ul className="t-4">
+            {socialLinks.map((item: ISocialLinks) => (
+              <li key={item.name} className=" text-xs mt-2 font-[340] text-white/80">
+                <Link
+                  href={item.link}
+                  className="inline-flex items-center gap-2"
+                >
+                  <span>{item.icon()}</span> <span>{item.name}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      <div className="lg:mt-[188px] my-6 lg:mb-8 text-center">
         <p className="text-sm text-white/55"> &copy; COPYRIGHT, {date} - Zora Defence</p>
       </div>
     </div>
