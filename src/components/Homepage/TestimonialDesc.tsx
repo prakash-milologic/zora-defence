@@ -9,7 +9,7 @@ const TestimonialDesc = () => {
     We hired Zora Defence for our corporate event, and their team went above and beyond to ensure everything ran smoothly. The security personnel were professional, courteous, and clearly well-trained. Their presence was reassuring, and they handled every situation with confidence and efficiency.
     </h6>
         <div
-            className="flex items-center mt-5 mb-5 sm:mt-9 mb-9 gap-2 text-amber-500 transition-all duration-500  ">
+            className="flex items-center mt-5 mb-5 sm:mt-9 gap-2 text-amber-500 transition-all duration-500  ">
             <svg className="w-5 h-5" viewBox="0 0 18 17" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
