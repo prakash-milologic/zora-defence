@@ -1,14 +1,14 @@
 "use client";
-
+import React from "react";
+import logo from "@/assets/images/logo.png";
+import { Open_Sans } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import { mainMenuItems } from "./menuItems";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
-import Image from "next/image";
-import logo from "@/assets/images/logo.png";
-import { usePathname } from "next/navigation";
-import { Open_Sans } from "next/font/google";
+import { mainMenuItems } from "./menuItems";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -16,14 +16,7 @@ const openSans = Open_Sans({
 
 const Header = () => {
   const [toggleNav, setToggleNav] = useState<boolean>(false);
-  const [active, setActive] = useState<string>("");
   const pathname = usePathname();
-  console.log(pathname);
-
-  useEffect(() => {
-    setActive(pathname);
-  }, [pathname]);
-
   return (
     <header className="sticky top-0 z-50 bg-black ">
       <nav className=" shadow lg:px-10 px-5 lg:py-5 py-2">
