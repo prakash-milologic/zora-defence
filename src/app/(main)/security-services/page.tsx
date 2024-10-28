@@ -65,7 +65,7 @@ const page = () => {
            <ContentAndImageSection
             src={about}
             alt="about"
-            heading="About"
+            heading=""
             title='We Provide Reliable &  Professional Security'
             desc1='Zora’s De-bugging & Sweeping Services ensure your privacy is protected from unwanted surveillance and unauthorized eavesdropping. Our experienced technicians conduct comprehensive electronic sweeps of homes, offices, and vehicles to detect and remove hidden devices, including covert cameras, audio bugs, and GPS trackers.'
             desc2='Using advanced detection equipment and thorough physical inspections, we identify vulnerabilities that could compromise your privacy or sensitive information. Whether it’s for personal security, corporate protection, or legal matters, we guarantee a discreet and efficient service that safeguards you from potential threats.'

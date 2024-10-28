@@ -11,7 +11,7 @@ const AboutUsHero = () => {
         <Image src={hero} alt="about" width={600} height={600} className="w-full h-full lg:-mt-10"/>
         </div>
         <div className="items-center flex flex-col gap-3 text-center justify-center">
-          <BiSolidQuoteAltLeft className="text-6xl  text-[#A58441]" />
+          <BiSolidQuoteAltLeft className="text-6xl text-[#A58441]" />
           <p
             style={{ fontFamily: "open" }}
             className="lg:w-1/2 m-auto lg:px-16 px-5 lg:text-2xl opacity-80 font-light"

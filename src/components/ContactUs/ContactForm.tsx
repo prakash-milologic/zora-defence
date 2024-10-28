@@ -3,10 +3,10 @@ import React from "react";
 const ContactForm = () => {
   return (
     <>
-      <div className="bg-[#0F0F0F] md:h-screen lg:px-0 lg:flex flex-col justify-center items-center">
-        <div className="box lg:flex lg:p-24 p-12">
-          <div className="w-[30vw] contact-info bg-[#1A1A1A] lg:block hidden"></div>
-          <div className="contact-form bg-[#222222] p-6 flex gap-4 flex-col">
+      <div className="bg-[#0F0F0F] lg:p-24 p-12 lg:flex flex-col justify-center items-center">
+        <div className="lg:flex w-full">
+          <div className="w-1/2 bg-[#1A1A1A] lg:block hidden"></div>
+          <div className="w-1/2  bg-[#222222] p-6 flex gap-4 flex-col">
             <h2 className="md:text-left text-[#A58441] font-bold text-base">
               CONTACT US
             </h2>

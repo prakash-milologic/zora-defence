@@ -45,3 +45,23 @@ export const socialLinks = [
     link: "",
   },
 ];
+
+
+export const countItem = [
+  {
+    count: "647",
+    title: "No. of Clients",
+  },
+  {
+    count: "30+",
+    title: "Years of Experience",
+  },
+  {
+    count: "244",
+    title: "No. of Employees",
+  },
+  {
+    count: "12",
+    title: "Global Markets",
+  },
+];
