@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Swiper, SwiperSlide, } from "swiper/react";
-import { Navigation, Pagination } from 'swiper/modules';
+import {Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -22,13 +22,13 @@ const Testimonial = () => {
         <Swiper
             spaceBetween={50}
             slidesPerView={3}
-            // pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-            navigation={true}
-            pagination={{
-              clickable: true,
-            }}
-            modules={[Navigation, Pagination]}
+            rewind = {true}
+            loop={true}
+            autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+            modules={[Autoplay,Navigation, Pagination]}
             className="mySwiper"
             breakpoints={{
                 '@0.00': {
