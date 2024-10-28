@@ -17,6 +17,22 @@ const Testimonial = () => {
         <Swiper
             spaceBetween={50}
             slidesPerView={3}
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+            breakpoints={{
+                '@0.00': {
+                  slidesPerView: 1,
+                },
+                '@0.75': {
+                  slidesPerView: 2,
+                },
+                '@1.00': {
+                  slidesPerView: 2,
+                },
+                '@1.50': {
+                  slidesPerView: 3,
+                },
+              }}
         >
             <SwiperSlide>
              <TestimonialDesc />
