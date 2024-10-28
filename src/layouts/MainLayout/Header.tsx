@@ -15,8 +15,8 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-black ">
     <nav className=" shadow lg:px-10 px-5 lg:py-5 py-2">
       <div className="w-full md:hidden flex items-center justify-between">
-        <Link href={"/"}>
-        <Image priority src={logo} alt="logo" width={100} height={100} />
+        <Link href={"/"} className="lg:w-full w-16">
+        <Image priority src={logo} alt="logo" width={100} height={100} className="w-full "/>
         </Link>
         <button
           className={`p-2 border rounded-lg
