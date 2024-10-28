@@ -7,8 +7,9 @@ const AboutUsHero = () => {
   return (
     <div>
       <div className="flex flex-col justify-center text-center items-center lg:gap-24 gap-8 bg-[#0F0F0F] mt-[-30px]">
-        <div className="lg:w-2/3">
-        <Image src={hero} alt="about" width={600} height={600} className="w-full h-full lg:-mt-10"/>
+        <div className="lg:w-2/3 w-full h-full relative lg:-mt-10">
+        <div className="absolute w-full h-full bg-gradient-to-r from-black from-15% to-white/0"></div>
+        <Image src={hero} alt="about" width={600} height={600} className="w-full h-full"/>
         </div>
         <div className="items-center flex flex-col gap-3 text-center justify-center">
           <BiSolidQuoteAltLeft className="text-6xl text-[#A58441]" />
