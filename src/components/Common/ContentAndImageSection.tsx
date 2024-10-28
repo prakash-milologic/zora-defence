@@ -41,7 +41,7 @@ const ContentAndImageSection = ({src, alt, heading, title, desc1,desc2 = "",isre
             <h6 className="lg:text-base text-sm opacity-80 font-normal">{desc2}</h6>
 
             <div className=" flex flex-col sm:flex-row justify-center md:justify-start">
-            <button  type="button" className="font-bold bg-[#A58441] lg:text-base text-xs py-2.5 text-center me-2 mb-2">MORE ABOUT US</button>
+            <button  type="button" className="font-bold bg-[#A58441] lg:text-base text-xs lg:px-5 py-2.5 text-center me-2 mb-2">MORE ABOUT US</button>
             </div>
         </div>
 

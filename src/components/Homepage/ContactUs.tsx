@@ -14,7 +14,7 @@ const ContactUs = () => {
         >
           here to protect you
         </p>
-        <p className="lg:w-2/3 m-auto mt-6 lg:text-[80px] text-3xl">
+        <p className="lg:w-2/3 m-auto mt-6 lg:text-[80px] text-3xl lg:leading-[80px]">
           Our Protection is always there 24 hours.
         </p>
         <button className={`lg:text-base text-xs bg-primary-500 font-bold lg:w-[220px] w-[180px] lg:py-5 py-2.5 lg:mt-10 mt-8 uppercase tracking-wider ${openSans.className}`}>
