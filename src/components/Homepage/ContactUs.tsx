@@ -7,7 +7,7 @@ const openSans = Open_Sans({
 
 const ContactUs = () => {
   return (
-    <div className="px-6 md:px-[104px] text-center">
+    <div className="px-6 lg:px-[104px] text-center">
       <div className="lg:pt-[120px] lg:pb-14 py-10 border-b-[0.5px] border-white">
         <p
           className={`text-sm text-primary-500 font-bold uppercase tracking-widest ${openSans.className}`}

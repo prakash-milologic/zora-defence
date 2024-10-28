@@ -11,7 +11,7 @@ const openSans = Open_Sans({
 
 const Services = () => {
   return (
-    <div className="px-6 md:px-[104px] lg:py-[120px] py-10">
+    <div className="px-6 lg:px-[104px] lg:py-[120px] py-10">
       <p className="text-sm text-secondary-500 font-bold uppercase">our services</p>
       <p className="lg:text-[64px] text-3xl font-medium lg:w-2/3 mt-6 mb-6 lg:mb-14 lg:leading-[80px]">
         A Unique, Executive, Tailor Made Security Service.

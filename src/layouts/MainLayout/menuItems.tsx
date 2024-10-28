@@ -17,10 +17,10 @@ export const mainMenuItems = [
     name: "Security Services",
     link: "/security-services",
   },
-  {
-    name: "Testimonials",
-    link: "/testimonials",
-  },
+  // {
+  //   name: "Testimonials",
+  //   link: "/testimonials",
+  // },
   {
     name: "Contact Us",
     link: "/contact-us",

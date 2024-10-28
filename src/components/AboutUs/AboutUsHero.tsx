@@ -6,8 +6,10 @@ import { BiSolidQuoteAltLeft } from "react-icons/bi";
 const AboutUsHero = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center text-center items-center gap-24 bg-[#0F0F0F ] mt-[-30px] pb-12">
-        <Image src={hero} alt="about" width={600} height={600} />
+      <div className="flex flex-col justify-center text-center items-center lg:gap-24 gap-8 bg-[#0F0F0F] mt-[-30px]">
+        <div className="lg:w-2/3">
+        <Image src={hero} alt="about" width={600} height={600} className="w-full h-full lg:-mt-10"/>
+        </div>
         <div className="items-center flex flex-col gap-3 text-center justify-center">
           <BiSolidQuoteAltLeft className="text-6xl  text-[#A58441]" />
           <p

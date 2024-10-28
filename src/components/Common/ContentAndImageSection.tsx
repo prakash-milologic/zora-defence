@@ -14,7 +14,7 @@ interface Props {
 
 const ContentAndImageSection = ({src, alt, heading, title, desc1,desc2 = "",isreversible=false,list=[]}: Props) => {
   return (
-    <div className={` ${isreversible ? "bg-[#000000]" : "bg-[#0F0F0F]"}  lg:pt-28 pt-14 px-6 md:px-[104px]  md:h-screen  overflow-hidden`}>
+    <div className={` ${isreversible ? "bg-[#000000]" : "bg-[#0F0F0F]"}  lg:py-28 py-10 px-6 lg:px-[104px] overflow-hidden`}>
             <h2 className="mb-6 md:text-left text-[#A58441] font-bold text-base lg:hidden">{heading}</h2>
 
     <div className={`flex ${isreversible ? 'flex-col-reverse md:flex-row-reverse ':'flex-col md:flex-row'} gap-16  max-w-8xl`}>
@@ -40,8 +40,8 @@ const ContentAndImageSection = ({src, alt, heading, title, desc1,desc2 = "",isre
             }
             <h6 className="lg:text-base text-sm opacity-80 font-normal">{desc2}</h6>
 
-            <div className=" flex flex-col sm:flex-row justify-center md:justify-start">
-            <button  type="button" className="font-bold bg-[#A58441] lg:text-base text-xs lg:px-5 py-2.5 text-center me-2 mb-2">MORE ABOUT US</button>
+            <div className="flex flex-col sm:flex-row justify-center md:justify-start">
+            <button  type="button" className="font-bold bg-[#A58441] lg:text-base text-xs md:px-5 py-2.5 text-center me-2 mb-2">MORE ABOUT US</button>
             </div>
         </div>
 
