@@ -38,7 +38,7 @@ const Hero = () => {
               <div className="absolute w-full h-full bg-gradient-to-r from-black from-10% to-white/0"></div>
               <Image src={hero} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative top-[30%] lg:left-[13%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
+            <div className="relative top-[25%] lg:left-[7.3%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
               <h1 className="lg:text-7xl text-4xl font-medium ">
                 We Secure What <br /> Matters Most
               </h1>
@@ -57,12 +57,12 @@ const Hero = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
+        <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
             <div className="absolute w-full h-full">
               <div className="absolute w-full h-full bg-gradient-to-r from-black from-10% to-white/0"></div>
               <Image src={hero} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative top-[30%] lg:left-[13%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
+            <div className="relative top-[25%] lg:left-[7.3%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
               <h1 className="lg:text-7xl text-4xl font-medium ">
                 We Secure What <br /> Matters Most
               </h1>
@@ -81,12 +81,12 @@ const Hero = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
+        <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
             <div className="absolute w-full h-full">
               <div className="absolute w-full h-full bg-gradient-to-r from-black from-10% to-white/0"></div>
               <Image src={hero} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative top-[30%] lg:left-[13%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
+            <div className="relative top-[25%] lg:left-[7.3%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
               <h1 className="lg:text-7xl text-4xl font-medium ">
                 We Secure What <br /> Matters Most
               </h1>
@@ -105,12 +105,12 @@ const Hero = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
+        <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
             <div className="absolute w-full h-full">
               <div className="absolute w-full h-full bg-gradient-to-r from-black from-10% to-white/0"></div>
               <Image src={hero} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative top-[30%] lg:left-[13%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
+            <div className="relative top-[25%] lg:left-[7.3%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
               <h1 className="lg:text-7xl text-4xl font-medium ">
                 We Secure What <br /> Matters Most
               </h1>
@@ -129,12 +129,12 @@ const Hero = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
+        <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
             <div className="absolute w-full h-full">
               <div className="absolute w-full h-full bg-gradient-to-r from-black from-10% to-white/0"></div>
               <Image src={hero} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative top-[30%] lg:left-[13%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
+            <div className="relative top-[25%] lg:left-[7.3%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
               <h1 className="lg:text-7xl text-4xl font-medium ">
                 We Secure What <br /> Matters Most
               </h1>
