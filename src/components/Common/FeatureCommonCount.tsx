@@ -1,4 +1,11 @@
 import React from "react";
+import {  Open_Sans } from "next/font/google";
+
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+});
+
 
 const FeatureCommonCount = ({
   featureItems,
@@ -14,7 +21,7 @@ const FeatureCommonCount = ({
             className="flex flex-col gap-2 border-[0.5px] border-primary-500 lg:p-7 p-4"
           >
             <h1 className="lg:text-6xl text-2xl font-medium">{item.count}</h1>
-            <p className="text-xs opacity-80 font-normal">{item.title}</p>
+            <p className={`text-xs opacity-80 font-normal ${openSans.className}`}>{item.title}</p>
           </div>
         ))}
       </div>

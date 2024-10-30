@@ -9,23 +9,25 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Image from "next/image";
+import {  Open_Sans } from "next/font/google";
+
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+});
+
 
 const Hero = () => {
   return (
     <>
       <Swiper
         slidesPerView={1}
-        // rewind = {true}
         loop={true}
-        // effect={'fade'}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
         }}
-        //   navigation={true}
-        //   pagination={{
-        //     clickable: true,
-        //   }}
+       
         pagination={{
           clickable: true,
         }}
@@ -38,120 +40,25 @@ const Hero = () => {
               <div className="absolute w-full h-full bg-gradient-to-r from-black from-10% to-white/0"></div>
               <Image src={hero} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative top-[25%] lg:left-[7.3%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
-              <h1 className="lg:text-7xl text-4xl font-medium ">
+            <div className="relative top-[20%] lg:left-[7.3%] left-5  w-full h-full z-10 ">
+              <h1 className="lg:text-[88px] text-3xl font-medium lg:leading-[88px] mb-4">
                 We Secure What <br /> Matters Most
               </h1>
-              <h6 className="lg:text-base text-sm opacity-80 font-normal lg:pr-0 pr-12">
+              <h6 className={`lg:text-xl text-sm text-white/80 font-[340] lg:pr-0 pr-12 ${openSans.className}`}>
                 Expert security professionals ensuring reliable protection
                 through <br /> manned guarding, static security, and close
                 protection services.
               </h6>
               <button
                 type="button"
-                className="lg:w-[220px] w-[180px] font-bold bg-[#A58441] lg:text-base text-xs py-2.5 text-center me-2 mb-2"
+                className="lg:w-[220px] w-[180px] font-bold bg-[#A58441] lg:text-base text-xs py-2.5 text-center me-2 mb-2 mt-10"
               >
                 EXPLORE SERVICES
               </button>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-        <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
-            <div className="absolute w-full h-full">
-              <div className="absolute w-full h-full bg-gradient-to-r from-black from-10% to-white/0"></div>
-              <Image src={hero} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="relative top-[25%] lg:left-[7.3%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
-              <h1 className="lg:text-7xl text-4xl font-medium ">
-                We Secure What <br /> Matters Most
-              </h1>
-              <h6 className="lg:text-base text-sm opacity-80 font-normal lg:pr-0 pr-12">
-                Expert security professionals ensuring reliable protection
-                through <br /> manned guarding, static security, and close
-                protection services.
-              </h6>
-              <button
-                type="button"
-                className="lg:w-[220px] w-[180px] font-bold bg-[#A58441] lg:text-base text-xs py-2.5 text-center me-2 mb-2"
-              >
-                EXPLORE SERVICES
-              </button>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
-            <div className="absolute w-full h-full">
-              <div className="absolute w-full h-full bg-gradient-to-r from-black from-10% to-white/0"></div>
-              <Image src={hero} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="relative top-[25%] lg:left-[7.3%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
-              <h1 className="lg:text-7xl text-4xl font-medium ">
-                We Secure What <br /> Matters Most
-              </h1>
-              <h6 className="lg:text-base text-sm opacity-80 font-normal lg:pr-0 pr-12">
-                Expert security professionals ensuring reliable protection
-                through <br /> manned guarding, static security, and close
-                protection services.
-              </h6>
-              <button
-                type="button"
-                className="lg:w-[220px] w-[180px] font-bold bg-[#A58441] lg:text-base text-xs py-2.5 text-center me-2 mb-2"
-              >
-                EXPLORE SERVICES
-              </button>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
-            <div className="absolute w-full h-full">
-              <div className="absolute w-full h-full bg-gradient-to-r from-black from-10% to-white/0"></div>
-              <Image src={hero} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="relative top-[25%] lg:left-[7.3%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
-              <h1 className="lg:text-7xl text-4xl font-medium ">
-                We Secure What <br /> Matters Most
-              </h1>
-              <h6 className="lg:text-base text-sm opacity-80 font-normal lg:pr-0 pr-12">
-                Expert security professionals ensuring reliable protection
-                through <br /> manned guarding, static security, and close
-                protection services.
-              </h6>
-              <button
-                type="button"
-                className="lg:w-[220px] w-[180px] font-bold bg-[#A58441] lg:text-base text-xs py-2.5 text-center me-2 mb-2"
-              >
-                EXPLORE SERVICES
-              </button>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className="w-full lg:h-[47rem] h-[38rem] relative bg-no-repeat bg-cover  z-0 rounded-xl overflow-hidden bg-gradient-to-r from-white/0 to-black">
-            <div className="absolute w-full h-full">
-              <div className="absolute w-full h-full bg-gradient-to-r from-black from-10% to-white/0"></div>
-              <Image src={hero} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="relative top-[25%] lg:left-[7.3%] left-5  w-full h-full z-10  flex  flex-col gap-5 ">
-              <h1 className="lg:text-7xl text-4xl font-medium ">
-                We Secure What <br /> Matters Most
-              </h1>
-              <h6 className="lg:text-base text-sm opacity-80 font-normal lg:pr-0 pr-12">
-                Expert security professionals ensuring reliable protection
-                through <br /> manned guarding, static security, and close
-                protection services.
-              </h6>
-              <button
-                type="button"
-                className="lg:w-[220px] w-[180px] font-bold bg-[#A58441] lg:text-base text-xs py-2.5 text-center me-2 mb-2"
-              >
-                EXPLORE SERVICES
-              </button>
-            </div>
-          </div>
-        </SwiperSlide>
+     
       </Swiper>
     </>
   );
