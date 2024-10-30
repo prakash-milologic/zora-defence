@@ -4,6 +4,7 @@ import {  Open_Sans } from "next/font/google";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
+  style:"normal"
 });
 
 
@@ -20,8 +21,8 @@ const FeatureCommonCount = ({
             key={index}
             className="flex flex-col gap-2 border-[0.5px] border-primary-500 lg:p-7 p-4"
           >
-            <h1 className="lg:text-6xl text-2xl font-medium">{item.count}</h1>
-            <p className={`text-xs opacity-80 font-normal ${openSans.className}`}>{item.title}</p>
+            <h1 className="lg:text-7xl text-2xl font-medium">{item.count}</h1>
+            <p className={`${openSans.className} text-xs text-white/80 font-[340]`}>{item.title}</p>
           </div>
         ))}
       </div>

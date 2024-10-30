@@ -1,8 +1,6 @@
-import React from "react";
 import hero from "@/assets/images/hero.png";
+import { Open_Sans } from "next/font/google";
 import Image from "next/image";
-import { BiSolidQuoteAltLeft } from "react-icons/bi";
-import {  Open_Sans } from "next/font/google";
 import { FgQuoteIcon } from "../SVGCollections";
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -19,7 +17,6 @@ const AboutUsHero = () => {
         <div className="items-center flex flex-col  gap-8 lg:gap-16 text-center justify-center">
       
          <FgQuoteIcon />
-          {/* <BiSolidQuoteAltLeft className="text-6xl text-[#A58441]" /> */}
           <p
             className={` m-auto w-3/4  lg:text-[40px] text-white/80 md:text-2xl  font-[340] lg:leading-[60px]  ${openSans.className}`}
           >

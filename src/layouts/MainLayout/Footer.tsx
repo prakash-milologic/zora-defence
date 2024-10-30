@@ -1,12 +1,12 @@
 "use client";
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
 import logo from "@/assets/images/logo.png";
-import { mainMenuItems } from "./menuItems";
+import ContactUs from "@/components/Homepage/ContactUs";
 import { services, socialLinks } from "@/constants/option";
-import { Open_Sans } from "next/font/google";
 import { ISocialLinks } from "@/constants/types";
+import { Open_Sans } from "next/font/google";
+import Image from "next/image";
+import Link from "next/link";
+import { mainMenuItems } from "./menuItems";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -15,6 +15,8 @@ const openSans = Open_Sans({
 const Footer = () => {
   const date = new Date().getFullYear();
   return (
+    <>
+  <ContactUs />
     <div className={`pt-20 px-6 lg:px-[104px] ${openSans.className}`}>
       <div className="flex justify-between">
         <div className="md:w-1/4 md:block hidden">
@@ -90,6 +92,7 @@ const Footer = () => {
         <p className="text-sm text-white/55"> &copy; COPYRIGHT, {date} - Zora Defence</p>
       </div>
     </div>
+    </>
   );
 };
 

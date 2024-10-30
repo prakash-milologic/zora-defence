@@ -1,13 +1,21 @@
+"use client"
 import React from "react";
 import { Open_Sans } from "next/font/google";
+import useIntersectionObserver from "@/hooks/useIntersectionObserver";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
 });
 
 const ContactUs = () => {
+  
+  useIntersectionObserver({
+    targetClass: "fade-in",
+    toggleClass: "visible",
+  });
+
   return (
-    <div className="px-6 lg:px-[104px] text-center">
+    <div className="px-6 lg:px-[104px] text-center fade-in">
       <div className="lg:pt-[120px] lg:pb-14 py-10 border-b-[0.5px] border-white">
         <p
           className={`text-sm text-primary-500 font-bold uppercase tracking-widest ${openSans.className}`}

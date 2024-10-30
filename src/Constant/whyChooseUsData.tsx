@@ -1,9 +1,4 @@
 import { FgCertified, FgClient, FgExperience, FgReliablity, FgRisk, FgTailored } from "@/components/SVGCollections";
-import { AiOutlineSafetyCertificate } from "react-icons/ai";
-import { BiUserPin } from "react-icons/bi";
-import { FaRegClock } from "react-icons/fa";
-import { RiTodoLine } from "react-icons/ri";
-import { TbUsers, TbUserShield } from "react-icons/tb";
 
 
 export const features = [
