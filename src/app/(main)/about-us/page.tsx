@@ -1,3 +1,4 @@
+"use client";
 import AboutUsHero from "@/components/AboutUs/AboutUsHero";
 import WhyChooseUs from "@/components/AboutUs/WhyChooseUs";
 import FeatureCommonCount from "@/components/Common/FeatureCommonCount";
@@ -13,6 +14,7 @@ const page = () => {
         title="Our Mission: Your Safety"
         description="Committed to delivering unmatched security solutions with integrity, professionalism, and excellence."
       />
+
       <AboutUsHero />
       <FeatureCommonCount featureItems={countItem} />
       <WhyChooseUs />

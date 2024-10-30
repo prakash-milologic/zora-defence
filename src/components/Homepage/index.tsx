@@ -29,9 +29,7 @@ const Home = () => {
       <div className="fade-in">
         <Testimonial />
       </div>
-      <div className="fade-in">
-        <ContactUs />
-      </div>
+      <ContactUs />
     </>
   );
 };

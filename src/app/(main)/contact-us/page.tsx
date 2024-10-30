@@ -2,9 +2,10 @@ import HeroTemplate from "@/components/Common/HeroTemplate";
 import Contact from "@/components/ContactUs/Contact";
 import ContactForm from "@/components/ContactUs/ContactForm";
 
+
 const page = () => {
   return (
-    <>
+    <div>
       <HeroTemplate
         pageName="CONTACT US"
         title="Get In Touch With Us"
@@ -12,7 +13,7 @@ const page = () => {
       />
       <Contact />
       <ContactForm />
-    </>
+    </div>
   );
 };
 
