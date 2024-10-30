@@ -9,6 +9,7 @@ import { countItem } from "@/constants/option";
 import useIntersectionObserver from "@/hooks/useIntersectionObserver";
 
 const Home = () => {
+
   useIntersectionObserver({
     targetClass: "fade-in",
     toggleClass: "visible",
@@ -16,19 +17,12 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <div className="fade-in">
         <About />
-      </div>
       <div className="fade-in">
         <FeatureCommonCount featureItems={countItem} />
       </div>
-      <div className="fade-in">
         <Services />
-      </div>
-      <div className="fade-in">
         <Testimonial />
-      </div>
-    
     </>
   );
 };

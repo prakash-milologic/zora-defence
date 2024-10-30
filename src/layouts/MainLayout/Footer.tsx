@@ -13,6 +13,7 @@ const openSans = Open_Sans({
 });
 
 const Footer = () => {
+
   const date = new Date().getFullYear();
   return (
     <>

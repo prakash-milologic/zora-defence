@@ -4,16 +4,22 @@ import mainImg from "@/assets/images/services-image-main.png";
 import surveillance from "@/assets/images/services-image-surveillance.png";
 import security from "@/assets/images/services-image-security.png";
 import { Open_Sans } from "next/font/google";
+import useIntersectionObserver from "@/hooks/useIntersectionObserver";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
 });
 
 const Services = () => {
+  useIntersectionObserver({
+    targetClass: "fade-in",
+    toggleClass: "visible",
+  });
+
   return (
     <div className="px-6 lg:px-[104px] lg:py-[120px] py-10">
-      <p className="text-sm text-secondary-500 font-bold uppercase">our services</p>
-      <p className="lg:text-[64px] text-3xl font-medium lg:w-2/3 mt-6 mb-6 lg:mb-14 lg:leading-[80px]">
+      <p className="text-sm text-secondary-500 font-bold uppercase fade-in">our services</p>
+      <p className="lg:text-[64px] text-3xl font-medium lg:w-2/3 mt-6 mb-6 lg:mb-14 lg:leading-[80px] fade-in">
         A Unique, Executive, Tailor Made Security Service.
       </p>
 
@@ -27,8 +33,8 @@ const Services = () => {
             className="w-full h-full object-cover"
           />
           <div className="absolute bottom-0 pt-32 pb-8 lg:px-8 px-3 bg-gradient-to-b from-white/0 from-0% to-40% to-[#0F0F0F]">
-            <p className="lg:text-4xl text-2xl font-bold">Close Protection</p>
-            <p className={`w-3/4 lg:text-base text-xs lg:mt-3 mt-2 font-[340] text-white/80 ${openSans.className}`}>
+            <p className="lg:text-4xl text-2xl font-bold fade-in">Close Protection</p>
+            <p className={`w-3/4 lg:text-base text-xs lg:mt-3 mt-2 fade-in font-[340] text-white/80 ${openSans.className}`}>
               Zora Defence can provide any number of Security Stewards to manage
               your occasion.
             </p>
@@ -45,10 +51,10 @@ const Services = () => {
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-0 pt-32 pb-8 lg:px-8 px-3 bg-gradient-to-b from-white/0 from-0% to-70% to-[#0F0F0F]">
-              <p className="lg:text-4xl text-2xl font-bold">
+              <p className="lg:text-4xl text-2xl font-bold fade-in">
                 Investigations & Surveillance
               </p>
-              <p className={`w-3/4 lg:text-base text-xs lg:mt-3 mt-2 font-[340] text-white/80 ${openSans.className}`}>
+              <p className={`w-3/4 lg:text-base text-xs lg:mt-3 mt-2 font-[340] text-white/80 fade-in ${openSans.className}`}>
                 Zora Defence can provide any number of Security Stewards to
                 manage your occasion.
               </p>
@@ -63,8 +69,8 @@ const Services = () => {
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-0 pt-32 pb-8 lg:px-8 px-3 bg-gradient-to-b from-white/0 from-0% to-70% to-[#0F0F0F]">
-              <p className="lg:text-4xl text-2xl font-bold">Event Security</p>
-              <p className={`w-3/4 lg:text-base text-xs lg:mt-3 mt-2 font-[340] text-white/80 ${openSans.className}`}>
+              <p className="lg:text-4xl text-2xl font-bold fade-in">Event Security</p>
+              <p className={`w-3/4 lg:text-base text-xs lg:mt-3 mt-2 font-[340] text-white/80 fade-in ${openSans.className}`}>
                 Zora Defence can provide any number of Security Stewards to
                 manage your occasion.
               </p>

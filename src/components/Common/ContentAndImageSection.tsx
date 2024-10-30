@@ -46,12 +46,12 @@ const ContentAndImageSection = ({
     <div
       className={` ${
         isreversible ? "bg-[#000000]" : "bg-[#0F0F0F]"
-      }  lg:py-28 py-10 px-6 lg:px-[104px] overflow-hidden fade-in ${
+      }  lg:py-28 py-10 px-6 lg:px-[104px] overflow-hidden  ${
         openSans.className
       }`}
     >
       {heading && (
-        <h2 className="mb-6 md:text-left text-[#A58441] font-bold text-base lg:hidden">
+        <h2 className="mb-6 md:text-left fade-in  text-[#A58441] font-bold text-base lg:hidden">
           {heading}
         </h2>
       )}
@@ -69,37 +69,37 @@ const ContentAndImageSection = ({
             alt={alt}
             width={400}
             height={400}
-            className="transform hover:scale-110 transition-transform ease-in-out duration-300"
+            className="transform hover:scale-110 hover:opacity-80 transition-all ease-in-out duration-300"
           />
         </div>
         <div className="w-full md:w-2/3 lg:text-base text-sm text-white/80 font-[340] ">
           {heading && (
-            <h2 className="mb-6 md:text-left text-[#A58441] font-bold text-base lg:block hidden">
+            <h2 className="mb-6 fade-in  md:text-left text-[#A58441] font-bold text-base lg:block hidden">
               {heading}
             </h2>
           )}
 
           <h1
-            className={`lg:text-[64px] text-4xl font-medium lg:pr-16 lg:leading-[72px] ${lora.className}`}
+            className={`lg:text-[64px] fade-in  text-4xl font-medium lg:pr-16 lg:leading-[72px] ${lora.className}`}
           >
             {title}
           </h1>
 
-          <h6 className=" lg:mt-4 mt-2 lg:pr-40">{desc1}</h6>
+          <h6 className=" lg:mt-4 mt-2 lg:pr-40 fade-in ">{desc1}</h6>
           {list.length > 0 && (
-            <ul className="list-disc list-inside lg:mt-6 mt-3">
+            <ul className="list-disc fade-in  list-inside lg:mt-6 mt-3">
               {list.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
             </ul>
           )}
-          <h6 className="lg:mt-6 mt-3 lg:pr-36">{desc2}</h6>
+          <h6 className="lg:mt-6 mt-3 lg:pr-36 fade-in ">{desc2}</h6>
 
           <div className="lg:mt-10 mt-5">
             <Link
               href={"/contact-us"}
               type="button"
-              className="font-bold bg-[#A58441] px-5 py-2.5 text-center me-2 mb-2"
+              className="font-bold fade-in  bg-[#A58441] px-5 py-2.5 text-center me-2 mb-2"
             >
               Contact US
             </Link>

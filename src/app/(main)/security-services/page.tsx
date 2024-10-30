@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import about from "@/assets/images/about.png";
 import ContentAndImageSection from "@/components/Common/ContentAndImageSection";
